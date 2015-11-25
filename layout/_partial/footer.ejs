@@ -15,6 +15,9 @@
 		<% if(theme.author.weibo){ %>
 		<a href="http://weibo.com/<%= theme.author.weibo %>" target="_blank" title="weibo"></a>
 		<% } %>
+		<% if(theme.author.zhihu){ %>
+		<a href="http://www.zhihu.com/people/<%= theme.author.zhihu %>" target="_blank" title="twitter"></a>
+		<% } %>
 		<% if(theme.author.twitter){ %>
 		<a href="https://twitter.com/<%=theme.author.twitter %>" target="_blank" title="twitter"></a>
 		<% } %>
@@ -28,11 +31,11 @@
         <a href="https://www.linkedin.com/<%=theme.author.linkedin %>" target="_blank" title="linkedin"></a>
         <% } %>
 	</div>
-		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © <%= new Date().getFullYear() %> 
-		<% if (config.author) { %>
+		<p class="copyright"> © <%= new Date().getFullYear() %> Powered by Li Zhangqu
+		<!--<% if (config.author) { %>
 		<a href="<%= config.url %>" target="_blank" title="<%= config.author %>"><%= config.author %></a>
 		<% } else {%>
 		<a href="<%= config.url %>" title="<%= config.title %>"><%= config.title %></a>
-		<% } %>
+		<% } %>-->
 		</p>
 </div>
