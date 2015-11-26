@@ -31,7 +31,18 @@
         <a href="https://www.linkedin.com/<%=theme.author.linkedin %>" target="_blank" title="linkedin"></a>
         <% } %>
 	</div>
-		<p class="copyright"> © <%= new Date().getFullYear() %> Powered by Li Zhangqu
+		<p class="copyright"> © <%= new Date().getFullYear() %> Powered by Li Zhangqu 
+		<% if (theme.busuanzi.enable){ %>
+			,
+			<span id="busuanzi_container_site_pv">
+				This Site  <span id="busuanzi_value_site_pv"></span>
+			</span>
+			,
+			<span id="busuanzi_container_page_pv">
+			  This Page  <span id="busuanzi_value_page_pv"></span>
+			</span>
+		<% } %>
+			
 		<!--<% if (config.author) { %>
 		<a href="<%= config.url %>" target="_blank" title="<%= config.author %>"><%= config.author %></a>
 		<% } else {%>

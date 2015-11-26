@@ -13,6 +13,7 @@ menu:
 
 #### Widgets
 widgets: 
+
 - pay
 ##- category
 - tag
@@ -28,7 +29,7 @@ rss: /atom.xml ## RSS address.
 imglogo:
   enable: false             ## display image logo true/false.
   src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
-favicon: img/susbjjbcy.jpg   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
+favicon: img/logo.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
 apple_icon: img/susbjjbcy.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
 #### Author Avatar Picture
@@ -74,7 +75,7 @@ author:
 #### Comment
 duoshuo: 
   enable: true  ## duoshuo.com
-  short_name:    ## duoshuo short name.
+  short_name: lizhangqu    ## duoshuo short name.
 
 #### Share button
 jiathis:
@@ -90,6 +91,10 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
+baidu_tongji:
+  enable: true
+busuanzi:
+  enable: true
 #### Custom Search
 google_cse: 
   enable: false
